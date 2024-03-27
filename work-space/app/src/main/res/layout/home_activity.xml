@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backGround"
+    >
+
+<!--    Thanh nav bar-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:weightSum="10"
+    android:orientation="horizontal"
+
+    >
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:src="@drawable/logo"
+        />
+
+        <EditText
+            android:background="@drawable/border_nav_bar"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_height="50dp"
+            android:hint="Search more food ..."
+            />
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_search_24"/>
+`</LinearLayout>
+
+<!--    Phan tim theo muc-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:weightSum="3"
+    >
+
+    <TextView
+        style="@style/EditTextStyleSelect"
+        android:text="@string/hambuger"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="30dp"
+        />
+
+    <TextView
+        style="@style/EditTextStyle"
+        android:paddingLeft="30dp"
+        android:text="@string/drink"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/EditTextStyle"
+        android:paddingLeft="30dp"
+        android:text="@string/fried"
+        android:layout_gravity="center"
+
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+
+<!--    Load danh sach san pham-->
+
+    <!--footer-->
+
+    <ScrollView
+        android:id="@+id/homeScrollView"
+        android:layout_width="350dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:background="@color/hilight_text">
+
+
+    </ScrollView>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="5"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@drawable/home" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bag"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/add"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/dollar"/>
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_user"/>
+
+</LinearLayout>
+
+
+</LinearLayout>

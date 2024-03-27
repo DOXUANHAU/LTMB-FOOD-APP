@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".foodappproject.DangKiActivity">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textColor="@color/hilight_text"
+        android:textSize="100px"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:hint="Tên đăng nhập"
+        android:textSize="50px"
+        android:textColor="@color/hilight_text"
+        android:background="@drawable/button"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="50px"
+        android:paddingLeft="100px"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:hint="Mật khẩu"
+        android:textSize="50px"
+        android:textColor="@color/hilight_text"
+        android:background="@drawable/button"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="50px"
+        android:paddingLeft="100px"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/rePassWord"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:hint="Nhập lại mật khẩu"
+        android:textSize="50px"
+        android:textColor="@color/hilight_text"
+        android:background="@drawable/button"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="50px"
+        android:paddingLeft="100px"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:hint="Email"
+        android:textSize="50px"
+        android:textColor="@color/hilight_text"
+        android:background="@drawable/button"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="50px"
+        android:paddingLeft="100px" />
+
+    <EditText
+        android:id="@+id/edtFullName"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:hint="Họ và Tên "
+        android:textSize="50px"
+        android:textColor="@color/hilight_text"
+        android:background="@drawable/button"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="50px"
+        android:paddingLeft="100px" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:hint="Số điện thoại"
+        android:textSize="50px"
+        android:textColor="@color/hilight_text"
+        android:background="@drawable/button"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="50px"
+        android:paddingLeft="100px" />
+
+
+
+    <Button
+        android:id="@+id/dangKy"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:textSize="50px"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/hilight_text"
+        android:layout_gravity="center"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="20px"
+        android:text="SIGN UP"/>
+
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="or login with"
+        android:textColor="@color/hilight_text"
+        android:textSize="40px"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10px"
+        />
+
+    <Button
+        android:id="@+id/dangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:textSize="50px"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/hilight_text"
+        android:layout_gravity="center"
+        android:layout_marginRight="100px"
+        android:layout_marginLeft="100px"
+        android:layout_marginBottom="20px"
+        android:text="LOGIN"/>
+
+
+
+
+
+  </LinearLayout>
+
+</RelativeLayout>
